@@ -1,0 +1,47 @@
+#######################################
+# Syntax Coloring Map For PubSubClient
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MeasuringDevice	KEYWORD1
+DiscreteDevice	KEYWORD1
+AnalogDevice	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+
+getDeviceType	KEYWORD2
+getTopic	KEYWORD2
+getTopicToPersist	KEYWORD2
+addValue	KEYWORD2
+getStatus	KEYWORD2
+setStatus	KEYWORD2
+setStatusAndPublish	KEYWORD2
+setStatusAndPersist	KEYWORD2
+write	KEYWORD2
+writeAndPublish	KEYWORD2
+writeAndPersist	KEYWORD2
+getOutput	KEYWORD2
+setOutput	KEYWORD2
+setOutputAndPublish	KEYWORD2
+setOutputAndPersist	KEYWORD2
+ledcWrite	KEYWORD2
+ledcWriteAndPublish	KEYWORD2
+ledcWriteAndPersist	KEYWORD2
+getPin	KEYWORD2
+setPin	KEYWORD2
+publish	KEYWORD2
+publishAndClearValues	KEYWORD2
+persist	KEYWORD2
+persistAndClearValues	KEYWORD2
+clearValues	KEYWORD2
+compareAndUpdate	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
