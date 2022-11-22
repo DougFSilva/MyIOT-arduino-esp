@@ -112,10 +112,6 @@ boolean AnalogDevice::compareAndUpdate(char* topic, byte* payload, unsigned int 
     }
 }
 
-void AnalogDevice::ledcWrite() {
-    ledcWrite(channel, output);
-}
-
 void AnalogDevice::ledcWriteAndPublish() {
     ledcWrite(channel, output);
     this->publish();

@@ -32,9 +32,11 @@ class AnalogDevice {
         void persist();
         void subscribe();
         boolean compareAndUpdate(char* topic, byte* payload, unsigned int length);
-        void ledcWrite();
         void ledcWriteAndPublish();
         void ledcWriteAndPersist();
+        void write();
+        void writeAndPublish();
+        void writeAndPersist();
 };
 
 
