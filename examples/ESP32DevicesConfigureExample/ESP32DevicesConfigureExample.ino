@@ -23,7 +23,7 @@ PubSubClient mqtt(espClient);
 
 //-------------------------- Devices configure ----------------------//
 MeasuringDevice tempUmidity(mqtt, "iot/MeasuringDevice/6359913cee0ef433e441b2ee");
-DiscreteDevice lamp(mqtt, "iot/lamp/63599283ee0ef433e441b35b", 13, true); // constructor(PubSubClient, topic, pin, status)
+DiscreteDevice lamp(mqtt, "iot/DiscreteDevice/63599283ee0ef433e441b35b", 13, true); // constructor(PubSubClient, topic, pin, status)
 AnalogDevice motor(mqtt, "iot/AnalogOutputDevice/63599265ee0ef433e441b344", 2, 150, 0, 5000, 8); // constructor for using PWM in ESP32 
                                                                                                         //(PubSubClient, topic, pin, output, channel, freq, resolution)
 
